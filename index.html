@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>What is execution context</h3>
+    <p>In JavaScript, execution context is an abstract concept that holds information about the environment where the current code is being executed. <br>There are three different types of JavaScript execution contexts: Global execution context, Function execution context and Eval execution context.</p><hr>
+    <h3>What is an event loop and call stack</h3>
+    <p>The call stack is a data structure that records where in the program we are. If we call a function to execute, we push it onto the stack and when we return from a function, we pop it off the stack. The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible. The event loop uses a few core components to operate: the call stack, the callback queue, and a few other internal components such as timers and I/O watchers.
+        The call stack is initially empty when an application starts. When a function is called, it is added to the top of the call stack. When the function returns, it is removed from the stack.
+    </p><hr>
+    <h3>What is creation phase and execution phase?</h3>
+    <p>In JavaScript, the creation phase includes creating the global and function execution contexts, creating the scope chain, and allocating memories for the variables and functions. During the execution phase, the JavaScript engine executes the code line by line, evaluating and executing statements.</p><hr>
+    <h3>What is the spread operator?</h3>
+    <p>The spread operator is a feature of JavaScript introduced with ES6(ECMAScript 6) that gives you access to the insides of an iterable object. An “iterable object” is anything you can iterate over item by item, such as arrays, objects literals, and strings. These kinds of JavaScript types can be traversed in some sequential fashion.</p><hr>
+    <h3>What is the use of setTimeout</h3>
+    <p>The setTimeout() method is used to execute a function after a specified amount of time has elapsed. It is a built-in JavaScript function that can be used to delay the execution of a function.</p><hr>
+    <h3>What are callbacks?</h3>
+    <p>In JavaScript, a callback is a function that is passed as an argument to another function and is executed after some operation has been completed. Callbacks are often used to handle asynchronous operations, such as making an HTTP request or reading a file from disk.</p><hr>
+    <h3>What is callback hell</h3>
+    <p>Callback hell is a term used to describe the situation where you have multiple nested callbacks that make the code difficult to read and maintain. This can happen when you have a series of asynchronous operations that depend on each other.</p><hr>
+    <h3>Difference between undefined vs not defined vs NaN</h3>
+    <ul>
+        <li><b>Undefined:</b> A variable is undefined if it has been declared but has not been assigned a value.</li>
+        <li><b>Not defined:</b> A variable is not defined if it has not been declared at all.</li>
+        <li><b>NaN:</b> NaN stands for “Not a Number” and is a special value in JavaScript that represents an invalid number.</li>
+    </ul>
+</body>
+</html>
